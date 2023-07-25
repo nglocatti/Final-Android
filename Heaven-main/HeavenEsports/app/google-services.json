@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42316457184",
+    "project_id": "heaven-final",
+    "storage_bucket": "heaven-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42316457184:android:45b9070946451387649c85",
+        "android_client_info": {
+          "package_name": "com.example.heavenesports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42316457184-ncuo6mlfl1t964u66j3rmo1pkb7dss78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzDdUn-SEQjG6TpWYfubfblvQJE6rsRws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42316457184-ncuo6mlfl1t964u66j3rmo1pkb7dss78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="C:/Users/NicoX360/Documents/Android/HeavenEsports/app/src/main/res/drawable/icon_ajustes_white.png" />
+        <ignore path="C:/Users/NicoX360/Documents/Android/HeavenEsports/app/src/main/res/drawable/icon_ajustes_white.png" />
+        <ignore path="C:/Users/NicoX360/Documents/Android/HeavenEsports/app/src/main/res/drawable/icon_user_white.png" />
+        <ignore path="C:/Users/NicoX360/Documents/Android/HeavenEsports/app/src/main/res/drawable/icon_user_white.png" />
+    </issue>
+</lint>
