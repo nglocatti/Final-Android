@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AuthFragment">
+
+    <LinearLayout
+        android:id="@+id/authLayout"
+        android:layout_width="377dp"
+        android:layout_height="703dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_horizontal"
+            android:text="@string/title_auth"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/text_auth"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ingresar"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:text="@string/btn_ingresar" />
+
+            <Space
+                android:layout_width="17dp"
+                android:layout_height="62dp" />
+
+            <Button
+                android:id="@+id/btn_registrar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:text="@string/btn_registrar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

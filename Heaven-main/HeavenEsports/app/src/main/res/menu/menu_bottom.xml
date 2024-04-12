@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/icon_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/torneosFragment"
+        android:icon="@drawable/icon_torneos"
+        android:title="@string/torneos" />
+
+    <item
+        android:id="@+id/teamFragment"
+        android:icon="@drawable/icon_team"
+        android:title="@string/team" />
+
+
+</menu>

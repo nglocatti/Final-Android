@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Heaven Esports</string>
+    <string name="user_info">Información del Usuario</string>
+    <string name="ajustes">Ajustes</string>
+
+    //hints
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_tag">Tag</string>
+
+    //buttons
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_salir">Cerrar sesión</string>
+    <string name="btn_foto_perfil">Cambiar foto de perfil</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_regresar">Regresar</string>
+
+    //error
+    <string name="error_foto">Hubo un inconveniente al subir la foto.</string>
+
+    //success
+
+    //textviews
+    <string name="riot_id">RIOT ID</string>
+    <string name="numeral">#</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preferences Files -->
+    <string name="login_pref">com.example.heavenesports.LOGIN_PREFERENCES</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Introduzca su nombre de usuario</string>
+    <string name="signature_title2">Introduzca su Riot ID</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Activar Notificaciones de torneos</string>
+    <string name="attachment_title">Notificaciones de torneos activos</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_auth">Autenticación</string>
+    <string name="text_auth">Ingresar mail, contraseña y luego ingresar o registrar.</string>
+    <string name="string_vacio"> </string>
+    <string name="string_nombre">Su nombre:</string>
+    <string name="string_juega">Juega:</string>
+    <string name="home">Home</string>
+    <string name="todo">TODO</string>
+    <string name="torneos">Torneos</string>
+    <string name="team">Team</string>
+</resources>
